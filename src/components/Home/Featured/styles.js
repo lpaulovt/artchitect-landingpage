@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const Container = styled.section`
@@ -14,44 +15,44 @@ export const Container = styled.section`
     right: 10px;
     z-index: 5;
   }
-`;
 
-export const Information = styled.div`
-  position: relative;
-  z-index: 5;
+  > #information {
+    position: relative;
+    z-index: 5;
 
-  > h1 {
-    color: var(--white);
-    font-size: 64px;
-    font-weight: 900;
-    margin-bottom: 7vh;
-    > span {
-      color: var(--light-gray);
+    > h1 {
+      color: var(--white);
+      font-size: 64px;
+      font-weight: 900;
+      margin-bottom: 7vh;
+      > span {
+        color: var(--light-gray);
+      }
+    }
+
+    > p {
+      color: var(--white);
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: normal;
+      margin-bottom: 7vh;
+    }
+
+    > button {
+      width: 150px;
+      height: 50px;
+      outline: none;
+      border-radius: 4px;
+      border: none;
+      background: var(--red);
+      color: var(--white);
+      font-size: 14px;
+      font-weight: bold;
     }
   }
-
-  > p {
-    color: var(--white);
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: normal;
-    margin-bottom: 7vh;
-  }
-
-  > button {
-    width: 150px;
-    height: 50px;
-    outline: none;
-    border-radius: 4px;
-    border: none;
-    background: var(--red);
-    color: var(--white);
-    font-size: 14px;
-    font-weight: bold;
-  }
 `;
 
-export const Images = styled.section`
+export const Images = styled(motion.section)`
   display: flex;
   position: absolute;
   bottom: 9vh;
