@@ -23,7 +23,7 @@
   <a href="#memo-license">License</a>
 </p>
 
-![App Gif](https://i.ibb.co/zs0LR7C/2020-12-26-18-03-58.gif)
+![App Gif](https://i.ibb.co/HF14kGq/ezgif-com-gif-maker-2.gif)
 
 ## :rocket: Technologies
 
