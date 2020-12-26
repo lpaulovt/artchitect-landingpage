@@ -23,7 +23,9 @@
   <a href="#memo-license">License</a>
 </p>
 
-![App Gif](https://i.ibb.co/HF14kGq/ezgif-com-gif-maker-2.gif)
+<p align="center">
+<img alt="Aplicattion gif" src="https://i.ibb.co/HF14kGq/ezgif-com-gif-maker-2.gif" >
+</p>
 
 ## :rocket: Technologies
 
